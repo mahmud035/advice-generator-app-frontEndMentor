@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FavIcon -->
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media-query.css" />
+    <title>Advice Generator App</title>
+  </head>
+  <body>
+    <section class="advice-card">
+      <small>ADVICE #<span id="quote-id"></span></small>
+      <div id="quote">
+        "It is easy to sit up and take notice, what's difficult is getting up
+        and taking action."
+      </div>
+      <img class="divider" src="./images/pattern-divider-desktop.svg" alt="" />
+      <a onclick="loadQuote()" class="icon-dice" href="#">
+        <img src="./images/icon-dice.svg" alt="" />
+      </a>
+    </section>
+    <!-- Javascript Link -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
